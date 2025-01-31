@@ -1,1 +1,1 @@
-![Демонстрация работы](https://iimg.su/d/8pQskoiyJBUstjY9gg3AFdydhntd8OxSF2BeDRIY)
+![Демонстрация работы](https://s.iimg.su/s/31/uSR79gVf6CkYPbqrctkLPDEj2WpACe9IIdtGEoDx.jpg)
