@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import { useSelector } from 'react-redux';
 import { RootState } from "@shared/store";
-import { ProductItem } from "@entities/product/ui/ProductItem";
 
 export default function ProductListPage() {
     const products = useSelector((state: RootState) => state.products.items);
