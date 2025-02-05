@@ -1,8 +1,12 @@
 import "./global.css"
-import RootLayout from "@app/index";
+import {Provider} from "react-redux";
+import {store} from "./src/shared/store/store";
+import {ProductList} from "./src/pages/ProductList";
 
 export default function App() {
   return (
-      <RootLayout />
+      <Provider store={store}>
+        <ProductList/>
+      </Provider>
   );
 }

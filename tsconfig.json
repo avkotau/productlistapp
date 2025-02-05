@@ -3,9 +3,20 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@entities/*": ["entities/*"],
-      "@shared/*": ["shared/*"],
-      "@app/*": ["app/*"]
-    },
-  }
+      "@entities/*": [
+        "entities/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@app/*": [
+        "app/*"
+      ]
+    }
+  },
+  "include": [
+    "./",
+    "./types/images.d.ts",
+    "nativewind-env.d.ts"
+  ]
 }
